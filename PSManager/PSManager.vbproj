@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{58D361D2-F2E4-412E-9748-A5679666024F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PSManager.My.MyApplication</StartupObject>
+    <RootNamespace>PSManager</RootNamespace>
+    <AssemblyName>PSManager</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PSManager.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PSManager.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v14.2.Core, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v14.2.Core, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v14.2.UI, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v14.2.Wizard, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\MetroUiFrameWork\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\..\MetroUiFrameWork\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\..\MetroUiFrameWork\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ColorHelper.vb" />
+    <Compile Include="FrmPawnMain.Designer.vb">
+      <DependentUpon>FrmPawnMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPawnMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSearch.Designer.vb">
+      <DependentUpon>FrmSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MetroMessageBox.vb" />
+    <Compile Include="FastPix.vb" />
+    <Compile Include="FrmMetroMessageBox.Designer.vb">
+      <DependentUpon>FrmMetroMessageBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMetroMessageBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain2.Designer.vb">
+      <DependentUpon>FrmMain2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UcPawn.Designer.vb">
+      <DependentUpon>UcPawn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UcPawn.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcReport.Designer.vb">
+      <DependentUpon>UcReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UcReport.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcSearch.Designer.vb">
+      <DependentUpon>UcSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UcSearch.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcSell.Designer.vb">
+      <DependentUpon>UcSell.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UcSell.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmMetroMessageBox.resx">
+      <DependentUpon>FrmMetroMessageBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain2.resx">
+      <DependentUpon>FrmMain2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPawnMain.resx">
+      <DependentUpon>FrmPawnMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSearch.resx">
+      <DependentUpon>FrmSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcPawn.resx">
+      <DependentUpon>UcPawn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcReport.resx">
+      <DependentUpon>UcReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcSearch.resx">
+      <DependentUpon>UcSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcSell.resx">
+      <DependentUpon>UcSell.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\pawn_click_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\pawn_hover_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\pawn_main_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\person_click_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\person_hover_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\person_main_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\sale_click_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\sale_hover_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\sale_main_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\pawn_click_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\pawn_hover_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\pawn_main_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\person_click_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\person_hover_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\person_main_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\sale_click_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\sale_hover_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\sale_main_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\hands.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\arrowup_orange_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\arrowdown_orange_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\arrowleft_orange_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\arrowright_orange_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\arrowleft_orange_click_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\arrowleft_orange_hover_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\hands_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\hands_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\search_click_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\search_hover_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\search_main_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\x_click_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\x_hover_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\x_main_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\lastpawn_click_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\lastpawn_hover_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\lastpawn_main_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\lastbuy_click_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\lastbuy_hover_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\lastbuy_main_200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\2_main.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\2_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\2_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\1_main.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\1_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\1_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\hands_grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\hands_grey_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\money_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\money_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\graph__48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\inventory_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\cancel_45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\checkmark_45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\clear_45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\clear_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\cancel_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\checkmark_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\images\buttons\search_32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
