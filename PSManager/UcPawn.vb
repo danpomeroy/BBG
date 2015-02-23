@@ -7,11 +7,11 @@
                 frm.ShowDialog(Me)
             End Using
         Catch ex As Exception
-
-        End Try
+            End Try
     End Sub
 
     Private Sub UcPawn_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        XtraTabControl1.BackColor = Me.BackColor
+        XtraTabPage1.BackColor = Me.BackColor
     End Sub
 End Class

@@ -11,7 +11,6 @@ Public Class FrmPawnMain
         TbiInventory.AppearanceItem.Normal.BackColor = ColorHelper.LightPurple
         TileBar1.SelectionColor = ColorHelper.DarkGrey
 
-        TbiPawn.PerformItemClick()
         'TileBarItem2
     End Sub
 
@@ -98,5 +97,14 @@ Public Class FrmPawnMain
         TransitionManager1.EndTransition()
 
         CheckTransition()
+    End Sub
+
+    Private Sub FrmPawnMain_MouseLeave(sender As Object, e As EventArgs) Handles Me.MouseLeave
+
+    End Sub
+
+    Private Sub FrmPawnMain_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+
+        TbiPawn.PerformItemClick()
     End Sub
 End Class
