@@ -307,4 +307,8 @@ Partial Class FrmPawnMain
     Friend WithEvents NavButton2 As DevExpress.XtraBars.Navigation.NavButton
     Friend WithEvents PnlMain As System.Windows.Forms.Panel
     Friend WithEvents TransitionManager1 As DevExpress.Utils.Animation.TransitionManager
+
+    Private Sub FrmPawnMain_Paint(sender As Object, e As PaintEventArgs) Handles Me.Paint
+     
+    End Sub
 End Class

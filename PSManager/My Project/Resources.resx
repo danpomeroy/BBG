@@ -118,24 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="arrowdown_orange_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\arrowdown_orange_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arrowleft_orange_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\arrowleft_orange_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arrowleft_orange_click_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\arrowleft_orange_click_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arrowleft_orange_hover_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\arrowleft_orange_hover_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arrowright_orange_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\arrowright_orange_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arrowup_orange_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\arrowup_orange_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="hands" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>images\buttons\hands.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -144,87 +126,6 @@
   </data>
   <data name="hands_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>images\buttons\hands_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lastbuy_click_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\lastbuy_click_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lastbuy_hover_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\lastbuy_hover_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lastbuy_main_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\lastbuy_main_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lastpawn_click_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\lastpawn_click_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lastpawn_hover_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\lastpawn_hover_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lastpawn_main_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\lastpawn_main_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pawn_click_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\pawn_click_200.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pawn_hover_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\pawn_hover_200.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pawn_main_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\pawn_main_200.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="person_click_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\person_click_200.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="person_hover_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\person_hover_200.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="person_main_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\person_main_200.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sale_click_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\sale_click_200.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sale_hover_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\sale_hover_200.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sale_main_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\sale_main_200.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="search_click_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\search_click_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="search_hover_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\search_hover_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="search_main_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\search_main_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="x_click_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\x_click_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="x_hover_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\x_hover_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="x_main_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\x_main_200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_1_click" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\1_click.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_1_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\1_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_1_main" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\1_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_2_click" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\2_click.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_2_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\2_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_2_main" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>images\buttons\2_main.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hands_grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>images\buttons\hands_grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

@@ -112,8 +112,74 @@
         End Get
     End Property
 
+    Private _count As Integer = 1
+    Public Sub SetNextPallete()
+        Select Case _count
+            Case 1
+                SetColor(ColorPallet.Color1)
+                _count += 1
+            Case 2
+                SetColor(ColorPallet.Color2)
+                _count += 1
+            Case 3
+                SetColor(ColorPallet.Color3)
+                _count += 1
+            Case 4
+                SetColor(ColorPallet.Color4)
+                _count += 1
+            Case 5
+                SetColor(ColorPallet.Color5)
+                _count += 1
+            Case 6
+                SetColor(ColorPallet.Color6)
+                _count += 1
+            Case 7
+                SetColor(ColorPallet.Color7)
+                _count += 1
+            Case 8
+                SetColor(ColorPallet.Color8)
+                _count += 1
+            Case 9
+                SetColor(ColorPallet.Color9)
+                _count += 1
+            Case 10
+                SetColor(ColorPallet.Color10)
+                _count += 1
+            Case 11
+                SetColor(ColorPallet.Color11)
+                _count += 1
+            Case 12
+                SetColor(ColorPallet.Color12)
+                _count += 1
+            Case 13
+                SetColor(ColorPallet.Color13)
+                _count += 1
+            Case 14
+                SetColor(ColorPallet.Color14)
+                _count += 1
+            Case 15
+                SetColor(ColorPallet.Color15)
+                _count += 1
+            Case 16
+                SetColor(ColorPallet.Color16)
+                _count += 1
+            Case 17
+                SetColor(ColorPallet.Color17)
+                _count += 1
+            Case 18
+                SetColor(ColorPallet.Color18)
+                _count += 1
+            Case 19
+                SetColor(ColorPallet.Color19)
+                _count += 1
+            Case 20
+                SetColor(ColorPallet.Color20)
+                _count = 1
+        End Select
+    End Sub
+
     Public Sub SetColor(pallete As ColorPallet)
-        pallete = ColorPallet.Color1
+
         Select Case pallete
             Case ColorPallet.Color1
                 _color1 = Color.FromArgb(241, 67, 63)

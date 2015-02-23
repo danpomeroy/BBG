@@ -107,4 +107,13 @@ Public Class FrmPawnMain
 
         TbiPawn.PerformItemClick()
     End Sub
+
+
+    Private Sub TbiInventory_ItemClick(sender As Object, e As DevExpress.XtraEditors.TileItemEventArgs) Handles TbiInventory.ItemClick
+        ColorHelper.SetNextPallete()
+        TbiPawn.AppearanceItem.Normal.BackColor = ColorHelper.Color1
+        TbiSell.AppearanceItem.Normal.BackColor = ColorHelper.Color2
+        TbiInventory.AppearanceItem.Normal.BackColor = ColorHelper.Color3
+        TbiReports.AppearanceItem.Normal.BackColor = ColorHelper.Color4
+    End Sub
 End Class
