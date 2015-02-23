@@ -29,6 +29,7 @@ Public Class FrmMain2
 
     Private Sub FrmMain2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'TbiPawn.PerformItemClick()
+
     End Sub
 
     Private Sub TileBarItem2_ItemClick(sender As Object, e As DevExpress.XtraEditors.TileItemEventArgs)
